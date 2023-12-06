@@ -1,0 +1,65 @@
+header {
+    width: 100vw;
+    background-image: url('./../images/pattern-bg-desktop.png');
+    padding: 1.5em;
+    padding-bottom: 6em;
+}
+
+h2.header__heading {
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1em;
+}
+
+section.ip-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 30rem;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+/* .input-container-wrapper {
+    padding: .5em;
+} */
+
+div.ip-input-container {
+    flex: .9;
+    width: 100%;
+    border-radius: 10px;
+}
+
+div.ip-input-container>input {
+    width: 100%;
+    padding: 1em .5em;
+    font-size: .9rem;
+    border: none;
+    outline-width: 0;
+    border: none;
+    border-radius: 10px;
+}
+
+.search-ip-btn {
+    flex: .1;
+    height: 100%;
+    padding: 1.1em .5em;
+    background-color: var(--very_dark_grey);
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: .3px;
+}
+
+.search-ip-btn:hover,
+.div.ip-input-container {
+    cursor: pointer;
+}
+
+.search-ip-btn:hover {
+    background-color: var(--dark_grey);
+}

@@ -1,0 +1,84 @@
+.ip-details {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80vw;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 1.3em;
+    z-index: 100;
+    box-shadow: 3px 3px 3px gray;
+}
+
+
+
+.ip-details__detail {
+    padding: 1em;
+    font-weight: 800;
+}
+
+.divider {
+    width: 1px;
+    height: 60px;
+    background-color: var(--dark_grey);
+}
+
+.ip-details:nth-last-child() {
+    border-right: 0;
+}
+
+.ip-details__detail__detail-name {
+    margin-bottom: 1em;
+    font-size: .9rem;
+    text-transform: uppercase;
+    color: var(--dark_grey);
+}
+
+.ip-details__detail__detail-value {
+    color: var(--very_dark_grey);
+    font-size: 1.4rem;
+}
+
+@media (max-width: 830px) {
+
+    .ip-details {
+        flex-direction: column;
+        width: 60%;
+        top: 45%;
+    }
+
+    .ip-details__detail__detail-name {
+        text-align: center;
+        font-size: .7rem;
+    }
+
+    .ip-details__detail__detail-value {
+        font-size: 1rem;
+    }
+
+    .divider {
+        height: 0;
+        width: 0;
+    }
+}
+
+@media (max-width: 617px) {
+
+    .ip-details {
+        width: 80%;
+    }
+
+
+}
+
+@media (max-width: 441px) {
+
+    .ip-details {
+        width: 90%;
+    }
+
+}

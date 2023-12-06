@@ -1,0 +1,15 @@
+:root {
+  --very_dark_grey: hsl(0, 0%, 17%);
+  --dark_grey: hsl(0, 0%, 59%)
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+
+}
